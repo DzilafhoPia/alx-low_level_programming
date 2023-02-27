@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlab.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 
-int main[void]
+int main(void)
 
 {
 	char password[84];
@@ -19,7 +19,7 @@ int main[void]
 	while (sum < 2772)
 
 	{
-		pasword[index] = 33 + rand() % 94;
+		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
 
@@ -34,7 +34,7 @@ int main[void]
 			                    diff_half1++;
 		for ( index = 0; password[index]; index++)
 			                      {
-						      if (password[index] >= (33 + diff_half1)
+						      if (password[index] >= (33 + diff_half1))
 					              {
 						password[index] -= diff_half1;
 			                                                                 break;

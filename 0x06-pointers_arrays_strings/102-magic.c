@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * Description - Add one line to the code
+ * so that the program print a[2] = 98
+ * followed by a new linr
+ * Return: a[2] = 98
+ */
 
 int main(void)
 {
@@ -9,7 +15,7 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * Write your line of code here...
+	 * write your line of code here...
 	 * Remember:
 	 * -you are not allowed to use a
 	 * -you are not allowed to modify p

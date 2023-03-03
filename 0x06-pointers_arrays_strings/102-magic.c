@@ -2,8 +2,8 @@
 /**
  * Description - Add one line to the code
  * so that the program print a[2] = 98
- * followed by a new linr
- * Return: a[2] = 98
+ * followed by a new line
+ * Return: 0
  */
 
 int main(void)
